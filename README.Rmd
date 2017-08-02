@@ -1,25 +1,25 @@
-ABOUT THE APP ITSELF
+# ABOUT THE APP ITSELF
 
-# There are 3 directories in this repo.
-# Enrichment_analysis/ contains files needed to generate a webpage,
-# where a user inputs gene names and tests for enrichment of those genes in each 
-# of the 209 modules. 
-# BH-adjusted p-value is calculated using hypergeometric test.
+There are 3 directories in this repo.
+Enrichment_analysis/ contains files needed to generate a webpage,
+where a user inputs gene names and tests for enrichment of those genes in each 
+of the 209 modules. 
+BH-adjusted p-value is calculated using hypergeometric test.
 
-# Gene_module_SVE/ contains files needed to generate a webpage,
-# where a user inputs a list of gene fold changes and gets back the activity of
-# each module (represented as SVE).
+Gene_module_SVE/ contains files needed to generate a webpage,
+where a user inputs a list of gene fold changes and gets back the activity of
+each module (represented as SVE).
 
-# Worm_gene_module_portal/ just linkes the URLs for the above two webpages
-# to serve as a landing page.
+Worm_gene_module_portal/ just linkes the URLs for the above two webpages
+to serve as a landing page.
 
-ABOUT SHINY IN GENERAL
+# ABOUT SHINY IN GENERAL
 
-# Here is a link to Shiny tutorials: https://shiny.rstudio.com/tutorial/
+Here is a link to Shiny tutorials: https://shiny.rstudio.com/tutorial/
 
-# The R script that contains all the code is in the file app.R (it MUST have this name).
-# The other files in each directory are data files needed for calculations.
-# To launch the app from RStudio you need to create an account on shinyapps.io, 
-# download the rsconnect library, link your shinyapps.io account to your RStudio and deploy the app
-# by runing the following command:
+The R script that contains all the code is in the file app.R (it MUST have this name).
+The other files in each directory are data files needed for calculations.
+To launch the app from RStudio you need to create an account on shinyapps.io, 
+download the rsconnect library, link your shinyapps.io account to your RStudio and deploy the app
+by runing the following command:
 rsconnect::deployApp("...dir where your app.R file and all the necessary data files live/")
