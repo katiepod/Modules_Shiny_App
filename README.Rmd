@@ -1,6 +1,7 @@
 # ABOUT THE APP ITSELF
 
 There are 3 directories in this repo.
+
 Enrichment_analysis/ contains files needed to generate a webpage,
 where a user inputs gene names and tests for enrichment of those genes in each 
 of the 209 modules. 
