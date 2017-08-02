@@ -19,7 +19,9 @@ to serve as a landing page.
 Here is a link to Shiny tutorials: https://shiny.rstudio.com/tutorial/
 
 The R script that contains all the code is in the file app.R (it MUST have this name).
+
 The other files in each directory are data files needed for calculations.
+
 To launch the app from RStudio you need to create an account on shinyapps.io, 
 download the rsconnect library, link your shinyapps.io account to your RStudio and deploy the app
 by runing the following command:
